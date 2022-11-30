@@ -1,0 +1,6 @@
+@import "styles/sizes.scss";
+
+:local(.content) {
+    height: $content-vsize !important;
+    width: 100% !important;
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "react-app"
+  ],
+  "plugins": ["react"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "browser": true
+  },
+  "rules": {
+    "no-case-declarations": "off",
+    "eol-last": "error",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-process-exit": "error",
+    "no-debugger": 1,
+    "no-var": "error",
+    "object-curly-spacing": ["error", "always"],
+    "max-len": ["error", {
+      "code": 100,
+      "tabWidth": 2
+    }],
+    "prefer-const": "error",
+    "quotes": ["error", "double"],
+    "semi": ["error", "never"]
+  },
+  "ignorePatterns": [
+    "/build/**/*",
+    "/src/assets/**/*",
+    "/public/**/*",
+    "/scripts/**/*",
+    "/config/**/*",
+    "/setupTests.js"
+  ]
+}

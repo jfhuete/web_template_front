@@ -1,0 +1,25 @@
+@import "styles/sizes.scss";
+@import "styles/layout.scss";
+
+:local(.sidebar) {
+    height: $content-vsize !important;
+    position: relative;
+    float: left;
+    z-index: 10;
+}
+
+:local(.sidebar) > div {
+    background-color: $sidebar-background-color !important;
+}
+
+:local(.menuItem) {
+    color: $sidebar-item-no-active-color !important;
+}
+
+:local(.menuItemActive) {
+    color: $sidebar-item-active-color !important;
+}
+
+:local(.menuItemActive:hover) {
+    color: $sidebar-item-active-hover-color !important;
+}

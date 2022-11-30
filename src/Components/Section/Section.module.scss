@@ -1,0 +1,16 @@
+@import "styles/colors.scss";
+@import "styles/sizes.scss";
+
+:local(.header) {
+    background-color: $primary-50;
+    color: $primary-inverse-color;
+    height: $breadcrumb-vsize;
+}
+
+:local(.content) {
+    background-color: $primary-inverse-color;
+    color: $primary-color;
+    // padding: 5rem;
+    // padding-left: 10rem;
+    height: calc($content-vsize - $breadcrumb-vsize);
+}

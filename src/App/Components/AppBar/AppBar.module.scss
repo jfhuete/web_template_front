@@ -1,0 +1,14 @@
+@import "styles/colors.scss";
+@import "styles/sizes.scss";
+
+
+:local(.navBar) {
+    background-color: $primary-color !important;
+    height: $header-vsize !important;
+    min-height: 4rem !important;
+}
+
+:local(.title) {
+    color: $secondary-color !important;
+    padding-left: 1rem;
+}

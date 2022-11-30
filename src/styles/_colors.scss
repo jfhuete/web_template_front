@@ -1,0 +1,31 @@
+$primary-color: #26204a;
+$secondary-color: #61bfaa;
+$primary-inverse-color: white;
+$secondary-inverse-color: $primary-color;
+
+// Gray palette
+$gray-175: #dddddd;
+$gray-150: #bbbbbb;
+$gray-125: #999999;
+$gray-100: #888888;
+$gray-75: #777777;
+$gray-50: #555555;
+$gray-25: #333333;
+
+// Primary palette
+$primary-175: #98cce0;
+$primary-150: #6cb6d3;
+$primary-125: #4c7da3;
+$primary-100: #3c4799;
+$primary-75: #2a3182;
+$primary-50: #2a2e56;
+$primary-25: $primary-color;
+
+// Secondary palette
+$secondary-175: #d9fcf4;
+$secondary-150: #aaebe6;
+$secondary-125: #91dcd6;
+$secondary-100: $secondary-color;
+$secondary-75: #59a8a3;
+$secondary-50: #359190;
+$secondary-25: #287a7d;
